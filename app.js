@@ -91,8 +91,8 @@ function start() {
 
   //reset player names
 
-  document.getElementById("name-0").textContent = "Player 1";
-  document.getElementById("name-1").textContent = "Player 2";
+  document.getElementById("name-0").textContent = "John";
+  document.getElementById("name-1").textContent = "Janet";
   //remove the winner player class and add the active class
   document.querySelector(".player-0-panel").classList.remove("winner");
   document.querySelector(".player-1-panel").classList.remove("winner");
